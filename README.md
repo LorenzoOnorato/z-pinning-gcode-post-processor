@@ -1,6 +1,6 @@
 # G-code Post-Processor for Z-Pinning — Improving Interlayer Strength in FDM Printed Parts
 
-A Python tool that post-processes slicer-generated G-code to insert **z-pin extrusion movements** into FFF 3D-printed specimens during the print. Note: this tool does not create the pin cavities in the part geometry — that step must be done beforehand in CAD or slicer (see [Quick Start](#quick-start)). Developed as part of a Master's thesis at Delft University of Technology, [Shaping Matter Lab](https://www.tudelft.nl/lr/organisatie/afdelingen/aerospace-structures-and-materials/shaping-matter-lab).
+A Python tool that post-processes slicer-generated G-code to insert **z-pin extrusion movements** into FFF 3D-printed specimens during the print. Note: this tool does not create the pin cavities in the part geometry — that step must be done beforehand in CAD or slicer (see [Quick Start](#quick-start)). Developed as part of a Master's thesis at Delft University of Technology, [Shaping Matter Lab](https://www.shapingmatterlab.com/).
 
 ---
 
