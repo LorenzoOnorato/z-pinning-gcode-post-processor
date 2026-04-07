@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# G-code input/output (keep template reference files)
+gcode_input/*
+gcode_output/*
+!gcode_input/.gitkeep
+!gcode_input/template.stl
+!gcode_input/template.gcode
+!gcode_output/.gitkeep
+!gcode_output/template_phl28_dv_sk0.1_ve200_wp_1.2.gcode
+
+# Pin extrusion review CSVs (generated at runtime)
+pin_extrusion_review/*
+!pin_extrusion_review/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
